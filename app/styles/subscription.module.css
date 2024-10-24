@@ -1,0 +1,262 @@
+/* -----------------------Subscription Page-------------------- */
+.subscriptionContainer {
+  padding: 20px;
+  background-color: #f4f6f8;
+}
+
+.subscriptionHeader {
+  display: flex;
+  width: 631px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.subscriptionCard {
+  display: flex;
+  align-items: center;
+  gap: var(--24, 14px);
+  align-self: stretch;
+  margin-top: 20px;
+}
+.planCard {
+  display: flex;
+  height: 432px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 12px;
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+}
+
+.planPrice {
+  display: flex;
+  padding: var(--Units-20, 20px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Units-20, 20px);
+}
+.planPriceHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.starter {
+  overflow: hidden;
+  color: var(--Neutral-Grey-700, #252525);
+  text-overflow: ellipsis;
+  font-family: Figtree;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+}
+.starterDescription {
+  color: var(--Neutral-Black-100, #939393);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.planPriceFreeHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.planPriceFree {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+
+  overflow: hidden;
+  color: var(--Neutral-Grey-700, #252525);
+  text-overflow: ellipsis;
+  font-family: Figtree;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -1.44px;
+}
+.planScheduleDemo {
+  display: flex;
+  height: 36px;
+  padding: var(--Units-6, 6px) var(--Units-12, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  align-self: stretch;
+  border-radius: var(--border-radius-radius-1, 6px);
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-100, #e2e2e2);
+  color: var(--Button-Text-Secondary, #535353);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.planGetStarted {
+  display: flex;
+  height: 36px;
+  padding: var(--Units-6, 6px) var(--Units-12, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  align-self: stretch;
+  border-radius: var(--border-radius-radius-1, 6px);
+  background: var(
+    --button-strokegrey,
+    linear-gradient(85deg, #535353 1.44%, #3e3e3e 99.78%)
+  );
+  color: var(--Button-Text-Primary, #fff);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.planUpgrade {
+  display: flex;
+  height: 36px;
+  padding: var(--Units-6, 6px) var(--Units-12, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  align-self: stretch;
+  border-radius: var(--border-radius-radius-1, 6px);
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-100, #e2e2e2);
+  color: var(--Button-Text-Secondary, #535353);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.planFeaturesList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.featureList {
+  display: flex;
+  width: 336px;
+  height: var(--Units-20, 20px);
+  align-items: center;
+  gap: 8px;
+}
+
+.featureListText {
+  color: var(--Neutral-Black-400, #2c2c2c);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.subscriptionContainer .subscriptionFAQSection {
+  display: flex;
+  width: 1151px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid #c9c9c9;
+  margin-top: 20px;
+  width: 100%;
+  background: #fff;
+}
+.subscriptionFAQHeaderSection {
+  display: flex;
+  padding: var(--Units-16, 16px);
+  align-items: center;
+  gap: var(--Units-20, 20px);
+  align-self: stretch;
+  border-bottom: 1px solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.subscriptionFAQHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+.subscriptionFAQHeaderText {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+}
+.subscriptionFAQHeaderDescription {
+  color: var(--Neutral-Black-100, #939393);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.subscriptionFAQDescriptionSection {
+  display: flex;
+  flex-direction: column;
+  padding: var(--Units-16, 16px);
+  gap: var(--Units-20, 20px);
+  align-self: stretch;
+  border-bottom: 1px solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+}
+
+.subscriptionFAQDescriptionSection:nth-of-type(6){
+  border-radius: 0px 0px 12px 12px;
+}
+.subscriptionFAQDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.subscriptionFAQDescriptionTextSection {
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscriptionFAQDescriptionText {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.subscriptionFAQHeaderDescriptionText {
+  color: var(--Text-Secondary, #535353);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

@@ -1,0 +1,47 @@
+<div id="root"></div>
+<script src="{{ '405.8213347e86227708ed74.js' | asset_url }}" defer></script>
+<script src="{{ 'main.4d9fa4c0e1a18032c7a3.js' | asset_url }}" defer></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    window.shopDetails = {
+      id: "{{ shop.id }}",
+      name: "{{ shop.name }}",
+      email: "{{ shop.email }}",
+      myshopifyDomain: "{{ shop.myshopify_domain }}",
+      primaryDomain: {
+        url: "{{ shop.primary_domain.url }}",
+        host: "{{ shop.primary_domain.host }}"
+      }
+    };
+    if (window.mountRewardOne) {
+      window.mountRewardOne("root", window.shopDetails); 
+    }
+  });
+</script>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap");
+
+  body {
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "REWARD",
+  "target": "body",
+  "stylesheet": "reward-button.css",
+  "javascript": "reward-button.js",
+  "settings": []
+}
+{% endschema %}

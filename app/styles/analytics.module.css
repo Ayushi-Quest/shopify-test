@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap");
+
+.analyticsContainer {
+  padding: 20px;
+}
+
+.analyticsSection {
+  display: flex;
+  width: 1151px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Units-24, 24px);
+  width: 100%;
+}
+
+.analyticsTitle {
+  color: var(--Mine-Shaft-925, #181818);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+}
+
+.analyticsSubtitle {
+  color: var(--Text-Secondary, #535353);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.analyticsCards {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--16, 16px);
+  align-self: stretch;
+  width: 100%;
+}
+
+.analyticsCard {
+  display: flex;
+  flex-direction: column;
+  padding: var(--Units-16, 16px);
+  align-items: left;
+  gap: var(--Units-20, 8px);
+  flex: 1 0 0;
+  border-radius: 12px;
+  border: 1px solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+}
+
+.cardTitle {
+  color: var(--Text-Secondary, #535353);
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.cardValue {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+}
+
+.programEngagement,
+.referralProgram,
+.pointOverview {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.analyticsCharts {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--16, 16px);
+  margin-top: 20px;
+  width: 100%;
+  /* padding: var(--Units-16, 16px); */
+}
+
+.chartContainer {
+  display: flex;
+  width: 568px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-200, #c9c9c9);
+  background: var(--Background-Primary, #fff);
+  padding: var(--Units-16, 16px);
+  width: 100%;
+}
+
+.chartHeader {
+  display: flex;
+  /* padding: var(--Units-16, 16px); */
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.dropdown {
+  display: flex;
+  padding: var(--Units-6, 6px) var(--Units-10, 10px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  border-radius: var(--border-radius-radius-1, 6px);
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-200, #c9c9c9);
+}
+
+.doughnutWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 315px;
+}
+
+.doughnutLabels {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 90px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  /* border: 1px solid #f80404; */
+}
+
+.labelBad {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 13.122px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.496px;
+}
+
+.labelMedium {
+  color: var(--Text-Tertiary, #696969);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 13.122px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.496px;
+}
+
+.labelGood {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 13.122px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.496px; /* 133.333% */
+}
+
+.gaugeText {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.gaugeText h4 {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.464px;
+}
+.gaugeText p {
+  color: var(--Text-Quternary, #808080);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.171px;
+}
+
+.gaugeMarker {
+  position: absolute;
+  top: 30%; /* Adjust to position vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%) rotate(0deg); /* Adjust rotation based on value */
+  width: 2px;
+  height: 100px;
+  background-color: #8b5cf6; /* Marker color */
+  z-index: 1;
+}
+
+.referralProgram .analyticsCharts {
+  width: 100%;
+}
+
+.referralProgram .chartContainerBar {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-200, #c9c9c9);
+  background: var(--Background-Primary, #fff);
+  padding: var(--Units-16, 16px);
+  /* border: 1px solid red; */
+}
+
+.chartContainersBar {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-200, #c9c9c9);
+  background: var(--Background-Primary, #fff);
+  padding: var(--Units-16, 16px);
+  /* border: 1px solid blue; */
+  height: 415px;
+}

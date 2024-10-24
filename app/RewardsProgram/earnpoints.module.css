@@ -1,0 +1,259 @@
+.earnPointsContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Units-24, 24px);
+}
+.earnPointsContentSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--Units-24, 24px);
+}
+
+.earnPointsContentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Units-10, 10px);
+  justify-content: space-between;
+  align-self: stretch;
+}
+.earnPointsContentHeaderText {
+  color: var(--Mine-Shaft-925, #181818);
+  font-family: Figtree;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  /* border: 1px solid red; */
+}
+
+.earnPointsContentHeaderDescription {
+  color: var(--Text-Secondary, #535353);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.earnPointsContentRepublishAppButton {
+  display: flex;
+  height: var(--Units-32, 32px);
+  padding: var(--Units-6, 6px) var(--Units-12, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  border-radius: var(--border-radius-radius-1, 6px);
+  border: 1px solid var(--Mine-Shaft-100, #e2e2e2);
+  background: #fff;
+
+  color: var(--Button-Text-Secondary, #535353);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.earnPointsContentRewardPointsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--16, 16px);
+  align-self: stretch;
+}
+
+.earnPointsContentRewardPointsItem {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+}
+.earnPointsContentRewardPointsItemSection {
+  display: flex;
+  width: 100%;
+  gap: var(--Units-20, 20px);
+  /* padding: var(--Units-10, 10px); */
+  align-items: center;
+  align-items: flex-start;
+}
+.earnPointsContentRewardPointsItemImage {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+}
+.earnPointsContentRewardPointsItemText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.earnPointsContentRewardPointsItemText h2 {
+  color: var(--Text-Primary, #181818);
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.earnPointsContentRewardPointsItemText p {
+  color: var(--Text-Secondary, #535353);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.earnPointsContentRewardPointsItemActions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--16, 16px);
+}
+.earnPointsContentRewardPointsItemActionsButton {
+  display: flex;
+  width: 61px;
+  padding: var(--Units-4, 4px) var(--Units-8, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Border-Radius-radius0, 4px);
+  border-radius: var(--border-radius-radius-7, 100px);
+  border: 1px solid var(--Border-Success, #0dc268);
+  background: var(--Background-Success, #c2f0d9);
+
+  color: var(--Text-Primary, #181818);
+  text-align: center;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.earnPointsContentRewardPointsItemXPButton {
+  display: flex;
+  width: 60px;
+  /* border: 1px solid red; */
+  padding: var(--Units-8, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  border-radius: var(--border-radius-radius-1, 6px);
+  color: var(--Button-Text-Secondary, #535353);
+  text-align: center;
+
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.earnPointsContentRewardPointsItemEdit {
+  display: flex;
+  padding: var(--Units-8, 8px) var(--Units-12, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-4, 4px);
+  border-radius: var(--border-radius-radius-1, 6px);
+  border: var(--Units-0, 1px) solid var(--Mine-Shaft-100, #e2e2e2);
+  cursor: pointer;
+  position: relative;
+}
+
+.earnPointsContentStatusBadge.active {
+  display: flex;
+  width: 61px;
+  padding: var(--Units-4, 4px) var(--Units-8, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Border-Radius-radius0, 4px);
+  border-radius: var(--border-radius-radius-7, 100px);
+  border: 1px solid var(--Border-Success, #0dc268);
+  background: var(--Background-Success, #c2f0d9);
+}
+.earnPointsContentStatusBadge.inactive {
+  display: flex;
+  width: 61px;
+  padding: var(--Units-4, 4px) var(--Units-8, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Border-Radius-radius0, 4px);
+  border-radius: var(--border-radius-radius-7, 100px);
+  border: 1px solid var(--Border-Error, #f57189);
+  background: var(--Background-Error, #fed8df);
+}
+.toggleSwitch {
+  width: 45px;
+  height: var(--Units-24, 24px);
+  border-radius: var(--Units-20, 20px);
+  /* background: var(
+    --button-strokegrey,
+    linear-gradient(85deg, #535353 1.44%, #3e3e3e 99.78%)
+  ); */
+  position: relative;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+.switchCircle {
+  width: 18px;
+  height: 18px;
+  border-radius: var(--Units-20, 20px);
+  background: #fff;
+  position: absolute;
+  top: 3px;
+  transition: all 0.3s ease;
+  /* border: 2px solid red; */
+}
+
+.switchOn {
+  left: 24px;
+  background: #fff;
+}
+
+.switchOff {
+  left: 2px;
+  background: #fff;
+}
+
+.placeAnOrderIcon {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  border-radius: 12px;
+  border: 1px solid var(--Mine-Shaft-200, #c9c9c9);
+  background: #fff;
+  border-radius: 4px;
+  z-index: 1;
+  width: 70px;
+  right: 0; 
+  top: 40px;
+  text-align: center;
+}
+
+.dropdownItem {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}

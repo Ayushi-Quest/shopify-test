@@ -1,0 +1,23 @@
+{
+  "modal": {
+    "close": "Close"
+  },
+  "blocks": {
+    "app_embed": {
+      "settings": {
+        "heading": {
+          "label": "Modal Heading",
+          "info": "Enter a heading for your modal"
+        },
+        "description": {
+          "label": "Modal Description",
+          "info": "Enter a description for your modal"
+        },
+        "button_text": {
+          "label": "Open Button Text",
+          "info": "Enter the text for the button that opens the modal"
+        }
+      }
+    }
+  }
+}
