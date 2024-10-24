@@ -3,7 +3,7 @@ import { Box, Text } from "@shopify/polaris";
 import styles from "../styles/app.module.css";
 import Reward from "../components/Reward";
 import Customization from "../components/Customization";
-import Preview from "../components/preview";
+import Preview from "../components/Preview";
 import { useLoaderData } from "@remix-run/react";
 import { apiVersion, authenticate } from "../shopify.server";
 import { config } from "../config/config";
