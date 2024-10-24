@@ -1,0 +1,111 @@
+.uploadZone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: stretch;
+    gap: 4px;
+    align-self: stretch;
+    border: 1px dashed #e0e0e0;
+    padding: 32px 12px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+  
+.uploadZone.noBorder {
+    padding: 0;
+    border: none;
+}
+  
+.iconUploadWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+  
+.uploadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+  
+.iconUpload {
+    padding: 12px;
+    border-radius: 56px;
+    background: #fafafa;
+}
+  
+.uploadText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+  
+.uploadText h2 {
+    color: #2c2c2c;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.uploadText p {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 10px;
+}
+  
+.progressWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.progressCircle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.progressCircle svg {
+    width: 80px;
+    height: 80px;
+}
+  
+.circle {
+    fill: none;
+    stroke: #181818;
+    stroke-width: 4;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+  
+.progressText {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.fileDetails {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    padding: 5px; 
+}
+.fileDetails span {
+    font-size: 14px;
+    color: #4a4a4a;
+}
