@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, Box } from "@shopify/polaris";
 import styles from "../styles/subscription.module.css";
-import check from "../assets/images/check.svg";
+import check from "../assets/images/Check.svg";
 import uparrow from "../assets/images/uparrow.svg";
 import downarrow from "../assets/images/downarrow.svg";
 
